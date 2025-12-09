@@ -164,7 +164,7 @@ export const DashboardScreen: React.FC = () => {
             title="Critical Errors"
             value={stats?.criticalErrors || 0}
             subtitle="Perlu investigasi"
-            icon="alert-triangle-outline"
+            icon="warning-outline"
             iconColor={theme.error}
           />
         </View>
