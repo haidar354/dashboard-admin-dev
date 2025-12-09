@@ -1,0 +1,32 @@
+name  =  "bakoelku-fe-admin-dashboard-dev"
+compatibility_date  =  "2025-12-05"
+pages_build_output_dir  =  "dist"
+
+[vars]
+VITE_API_BASE_URL = "https://api-dev.bakoelku.com/"
+# VITE_API_BASE_URL = "http://api-pasinaon.test"
+VITE_APPS_API_BASE_URL = "https://api-dev.bakoelku.com/"
+VITE_API_ORG_URL = "https://api-dev.bakoelku.com/"
+# APP Setting
+VITE_APPS_BASE_DOMAIN = "pasinaon.co.id"
+VITE_APPS_BASE_URL = "http://localhost:5173"
+VITE_APPS_NAME = "Sistem Tata Usaha"
+VITE_APPS_PREFIX = "administrative-system"
+
+VITE_APPS_PRIMARY_COLOR = '#42a7f5'
+VITE_APPS_PRIMARY_DARKEN_COLOR = '#2f7bb5'
+
+VITE_APPS_CLIENT_LOGO = '/images/clients/pasinaon/logo.png'
+VITE_APPS_CLIENT_FAVICON = '/images/clients/pasinaon/favicon.ico'
+
+# SSO URL
+VITE_APPS_SSO_URL = "https://api.dev.pasinaon.co.id/oauth/authorize?response_type=code&scope=*&state=123"
+VITE_APPS_MODULE_ID = 15
+VITE_APPS_SCHOOL_ID = "74da0128-2dbe-4eaa-b7ed-1b7f1f5e551c"
+
+# PDS URL
+VITE_APPS_PORTAL_FE_URL = "https://portal.dev.pasinaon.co.id"
+VITE_APPS_PDS_FE_URL = "https://pds.dev.pasinaon.co.id"
+VITE_APPS_PDS_API_URL = "https://api.dev.pasinaon.co.id/pds"
+VITE_APPS_ACADEMIC_API_URL = "https://api.dev.pasinaon.co.id/academic"
+VITE_APPS_CLIENT_NAME = "Dashboard"

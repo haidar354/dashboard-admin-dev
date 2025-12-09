@@ -1,0 +1,75 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "files.insertFinalNewline": true,
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.autoClosingBrackets": "always"
+  },
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": false
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "eslint.format.enable": true,
+  "eslint.options": {
+    "rulePaths": ["eslint-internal-rules"]
+  },
+
+  "stylelint.packageManager": "pnpm",
+  "stylelint.validate": ["css", "scss", "vue"],
+
+  "highlight.regexFlags": "gi",
+  "highlight.regexes": {
+    "(100vh|translate|margin:|padding:|margin-left|margin-right|rotate|text-align|border-top|border-right|border-bottom|border-left|float|background-position|transform|width|height|top|left|bottom|right|float|clear|(p|m)(l|r)-|border-(start|end)-(start|end)-radius)": [
+      {
+        "borderWidth": "1px",
+        "borderColor": "tomato",
+        "borderStyle": "solid"
+      }
+    ],
+    "(overflow-x:|overflow-y:)": [
+      {
+        "borderWidth": "1px",
+        "borderColor": "green",
+        "borderStyle": "solid"
+      }
+    ]
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+  "vetur.experimental.templateInterpolationService": true,
+  "vue.server.hybridMode": false,
+  "vue.server.viteIntegration": true,
+  "vue.codeActions.enabled": true,
+  "vue.complete.casing.tags": "kebab",
+  "vue.complete.casing.props": "camel",
+  "vue.server.maxFileSize": 20971520,
+  "vue.server.petiteVue.supportHtmlFile": false,
+  "vue.server.includeLanguages": ["vue"],
+  "vue.updateImportsOnFileMove.enabled": true,
+  "vue.server.diagnosticModel": "push",
+  "vue.server.reverseConfigFilePriority": false,
+  "vue.inlayHints.missingProps": true,
+  "vue.inlayHints.inlineHandlerLeading": true,
+  "vue.inlayHints.optionsWrapper": true,
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+}
